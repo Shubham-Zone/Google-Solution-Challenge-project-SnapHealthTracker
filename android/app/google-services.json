@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655704394201",
+    "project_id": "medical-records-809e6",
+    "storage_bucket": "medical-records-809e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655704394201:android:03e1925d26300b17c9f1c8",
+        "android_client_info": {
+          "package_name": "com.HealSnap.heal_snap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWbi2eNJgytFeVSZFnpW4X6LjYLvLYko8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655704394201:android:988e0de7a2a60d77c9f1c8",
+        "android_client_info": {
+          "package_name": "com.example.medical_records"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWbi2eNJgytFeVSZFnpW4X6LjYLvLYko8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
