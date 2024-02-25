@@ -42,32 +42,49 @@ cd Heal-snap
 flutter pub get
 ```
 
-## Configuration
+### Configuration
 
-1. Set up Firebase for your project and obtain the necessary configuration files (google-services.json for Android, GoogleService-Info.plist for iOS).
+1. **Set up Firebase**:
+   - Go to the Firebase console and create a new project.
+   - Download the configuration files (`google-services.json` for Android, `GoogleService-Info.plist` for iOS) from Firebase for your project.
+   - Place the configuration files in the respective directories:
+     - For Android: `android/app/google-services.json`
+     - For iOS: `ios/Runner/GoogleService-Info.plist`
 
-2. Place the configuration files in the respective directories:
-
-   - For Android: `android/app/google-services.json`
-   - For iOS: `ios/Runner/GoogleService-Info.plist`
-
-3. Configure the Gemini API:
-
+2. **Configure the Gemini API**:
    - Obtain API keys from the Gemini API platform.
-   - Place the API keys in the appropriate location in your project.
+   - Replace the placeholder API key in the `gemini_api.dart` file with your own API key.
 
-## Usage
+   ```dart
+   // lib/Helpers/gemini_api.dart
 
-1. Ensure you have an emulator/device set up for testing.
+   String url = 'YOUR_GEMINI_API_KEY';
+   ```
 
-2. Run the application:
+3. **Update Firebase Keys**:
+   - Replace the placeholder Firebase keys in the Firebase configuration files (`google-services.json` and `GoogleService-Info.plist`) with your own keys obtained from the Firebase console.
 
-```bash
-flutter run
-```
+### Usage
 
-3. Access the app through your emulator/device.
+Follow the instructions below to run the application:
 
+1. **Ensure you have an emulator/device set up for testing.**
+
+2. **Run the application**:
+
+   ```bash
+   flutter run
+   ```
+
+3. **Access the app** through your emulator/device.
+
+### Additional Notes
+
+- Make sure to replace `YOUR_GEMINI_API_KEY` in `gemini_api.dart` with your actual Gemini API key.
+- Ensure that the Firebase configuration files are correctly placed in the specified directories for both Android and iOS.
+- For any further inquiries or feedback, users can contact your team at [devshubham652@gmail.com](mailto:devshubham652@gmail.com).
+
+By following these steps, users should be able to configure the app with their own Gemini API key and Firebase credentials successfully.
 ## Technologies Used
 
 - Flutter
