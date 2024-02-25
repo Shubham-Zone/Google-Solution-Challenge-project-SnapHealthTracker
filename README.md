@@ -74,19 +74,8 @@ flutter run
 - Firebase (Authentication, Firestore)
 - Gemini API
 - Other dependencies managed via pubspec.yaml
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow the guidelines outlined in the CONTRIBUTING.md file.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- 
 
 ## Contact Us
 
-For any inquiries or feedback, please contact our team at [contact@example.com](mailto:contact@example.com).
-
----
-
-Feel free to customize this README file further based on your project's specific details and requirements!
+For any inquiries or feedback, please contact our team at [devshubham652@gmail.com](mailto:devshubham652@gmail.com).
