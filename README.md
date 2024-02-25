@@ -9,7 +9,9 @@ Welcome to our innovative medical reports app, a comprehensive solution designed
 - Advanced encryption and security measures ensure complete confidentiality of sensitive information.
 
 ### Personalized Symptom Tips
-- Input your symptoms to receive tailored advice and recommendations for better understanding and managing your health.
+- When adding a medical report, users are prompted to enter symptoms.
+- Utilize the symptoms provided by users to generate tailored advice and recommendations for better understanding and managing their health.
+- Receive insights based on the reported symptoms, helping users make informed decisions about their health.
 
 ### Sophisticated Symptom Analysis
 - Identify patterns and trends in symptoms, with alerts for potential concerns and highlighting of serious symptoms.
