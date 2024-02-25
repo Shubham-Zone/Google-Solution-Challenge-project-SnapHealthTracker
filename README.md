@@ -27,13 +27,13 @@ Welcome to our innovative medical reports app, a comprehensive solution designed
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/medical-reports-app.git
+git clone https://github.com/Shubham-Zone/Heal-snap
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd medical-reports-app
+cd Heal-snap
 ```
 
 3. Install dependencies:
