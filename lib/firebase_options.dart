@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAikElAIWS9JPLV80S7HMnt98OXIrn9Mqw',
-    appId: '1:655704394201:web:0fb1c1f2585205d6c9f1c8',
-    messagingSenderId: '655704394201',
-    projectId: 'medical-records-809e6',
-    authDomain: 'medical-records-809e6.firebaseapp.com',
-    storageBucket: 'medical-records-809e6.appspot.com',
-    measurementId: 'G-XJTSKCX97Y',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_AUTH_DOMAIN',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    measurementId: 'YOUR_MEASUREMENT_ID',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBWbi2eNJgytFeVSZFnpW4X6LjYLvLYko8',
-    appId: '1:655704394201:android:03e1925d26300b17c9f1c8',
-    messagingSenderId: '655704394201',
-    projectId: 'medical-records-809e6',
-    storageBucket: 'medical-records-809e6.appspot.com',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAf_Jh0YiX7cE5iq3kpjR3hpT37syst-E4',
-    appId: '1:655704394201:ios:80b1e486291d272ac9f1c8',
-    messagingSenderId: '655704394201',
-    projectId: 'medical-records-809e6',
-    storageBucket: 'medical-records-809e6.appspot.com',
-    iosBundleId: 'com.HealSnap.healSnap',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    iosBundleId: 'YOUR_IOS_BUNDLE_ID',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAf_Jh0YiX7cE5iq3kpjR3hpT37syst-E4',
-    appId: '1:655704394201:ios:8481dbbf7ed0baaec9f1c8',
-    messagingSenderId: '655704394201',
-    projectId: 'medical-records-809e6',
-    storageBucket: 'medical-records-809e6.appspot.com',
-    iosBundleId: 'com.HealSnap.healSnap.RunnerTests',
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: 'YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_STORAGE_BUCKET',
+    iosBundleId: 'YOUR_IOS_BUNDLE_ID',
   );
 }
