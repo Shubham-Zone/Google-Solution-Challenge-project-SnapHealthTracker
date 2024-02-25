@@ -1,6 +1,6 @@
 # Heal Snap App
 
-Heal Snap is an application designed to help users track their daily food intake, exercise, and mental well-being to promote a healthier lifestyle.
+Heal Snap is a mobile application designed to help users track their daily food intake, exercise, and mental well-being to promote a healthier lifestyle.
 
 ## Features
 
@@ -27,28 +27,39 @@ cd heal-snap-app
 3. Install dependencies:
 
 ```bash
-npm install
+flutter pub get
 ```
+
+## Configuration
+
+1. Set up Firebase for your project and obtain the necessary configuration files (google-services.json for Android, GoogleService-Info.plist for iOS).
+
+2. Place the configuration files in the respective directories:
+
+   - For Android: `android/app/google-services.json`
+   - For iOS: `ios/Runner/GoogleService-Info.plist`
+
+3. Configure the Gemini API:
+
+   - Obtain API keys from the Gemini API platform.
+   - Place the API keys in the appropriate location in your project.
 
 ## Usage
 
-1. Start the application:
+1. Ensure you have an emulator/device set up for testing.
+
+2. Run the application:
 
 ```bash
-npm start
+flutter run
 ```
-
-2. Open a web browser and go to `http://localhost:3000` to access the Heal Snap app.
-
-3. Sign up or log in to your account to begin tracking your health journey.
 
 ## Technologies Used
 
-- React.js
-- Node.js
-- Express.js
-- MongoDB
-- Bootstrap
+- Flutter
+- Firebase (Authentication, Firestore)
+- Gemini API
+- Other dependencies managed via pubspec.yaml
 
 ## Contributing
 
